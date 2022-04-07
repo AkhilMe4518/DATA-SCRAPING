@@ -1,5 +1,6 @@
 # DATA-SCRAPING
-(NOTE:This code works when the html page renders properly when we scrap data)
+(NOTE:This code works when the html page renders properly while we scrap data)
+More often it works great with single url and needs html sessions to scrap more urls
 
 
 In this project we will be scraping data from AMAZON WEBSITE
