@@ -18,8 +18,6 @@ cur_iteration=0
 start = time.time()
 Time=[]
 for URL in url_list:
-# if True:
-#     URL='https://www.amazon.in/SUPIERIORITY-Waterproof-Piping-Weather-Continental/dp/B09PGPQ6MG/ref=sr_1_1_sspa?pd_rd_r=03bcaa20-884f-4986-9854-a9d9e22b2fc7&pd_rd_w=5IqzH&pd_rd_wg=QkpQY&pf_rd_p=1dd1f792-d184-4a51-8ab0-7f28cbaee21e&pf_rd_r=57NN5M4SY66QS9MBWG28&qid=1649335708&refinements=p_85%3A10440599031&rps=1&s=automotive&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVEhPWTZFMVJVWkxXJmVuY3J5cHRlZElkPUEwNTE4NzE0MkFIUjFLOTIyRlJENCZlbmNyeXB0ZWRBZElkPUEwMjgwNTkzM1JDNkNYRVNKSUpOQyZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl'
     Product_data={}
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36", "Accept-Encoding":"gzip, deflate", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "DNT":"1","Connection":"close", "Upgrade-Insecure-Requests":"1"}
     page = requests.get(URL, headers=headers) 
